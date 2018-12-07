@@ -1,267 +1,100 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
+  <head>
+    <link href="../Static/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="../Static/signup.css" type="text/css" rel="stylesheet">
+  </head>
+  <style>
+    body#LoginForm{ background-image:url("http://www.abraxasnu.com/wp-content/uploads/2016/06/Ashoka.jpg"); background-repeat:no-repeat; background-position:center; background-size:cover; padding:10px;}
 
-<head>
-    <meta charset="UTF-8">
-    <meta content="width=device-width, initial-scale=1" name="viewport">
-    <meta name="x-apple-disable-message-reformatting">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta content="telephone=no" name="format-detection">
-    <title></title>
-    <link href="https://fonts.googleapis.com/css?family=Open Sans:400,400i,700,700i" rel="stylesheet">
-    <link href="main.css" rel="stylesheet">
-</head>
+.form-heading { color:#fff; font-size:23px;}
+.panel h2{ color:#444444; font-size:18px; margin:0 0 8px 0;}
+.panel p { color:#777777; font-size:14px; margin-bottom:30px; line-height:24px;}
+.login-form .form-control {
+background: #f7f7f7 none repeat scroll 0 0;
+border: 1px solid #d4d4d4;
+border-radius: 4px;
+font-size: 14px;
+height: 50px;
+line-height: 50px;
+}
+.main-div {
+background: #ffffff none repeat scroll 0 0;
+border-radius: 2px;
+margin: 10px auto 30px;
+max-width: 38%;
+padding: 50px 70px 70px 71px;
+}
 
-<body>
-    <div class="es-wrapper-color">
-        <!--[if gte mso 9]>
-            <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
-                <v:fill type="tile" color="#eeeeee"></v:fill>
-            </v:background>
-        <![endif]-->
-        <table class="es-wrapper" width="100%" cellspacing="0" cellpadding="0">
-            <tbody>
-                <tr>
-                    <td class="esd-email-paddings" valign="top">
-    <table class="es-content esd-header-popover" cellspacing="0" cellpadding="0" align="center">
-        <tbody>
-            <tr> </tr>
-            <tr>
-                        <table class="es-content" cellspacing="0" cellpadding="0" align="center">
-                            <tbody>
-                                <tr> </tr>
-                                <tr>
-                                    <td class="esd-stripe" esd-custom-block-id="7681" align="center">
-                                        <table class="es-header-body" style="background-color: rgb(4, 71, 103);" width="600" cellspacing="0" cellpadding="0" bgcolor="#044767" align="center">
-                                            <tbody>
-                                                <tr>
-                                                    <td class="esd-structure es-p35t es-p35b es-p35r es-p35l" align="left">
-                                                        <!--[if mso]><table width="530" cellpadding="0" cellspacing="0"><tr><td width="340" valign="top"><![endif]-->
-                                                        <table class="es-left" cellspacing="0" cellpadding="0" align="left">
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td class="es-m-p0r es-m-p20b esd-container-frame" width="340" valign="top" align="center">
-                                                                        <table width="100%" cellspacing="0" cellpadding="0">
-                                                                            <tbody>
-                                                                                <tr>
-                                                                                    <td class="esd-block-text es-m-txt-c" align="left">
-                                                                                        <h1 style="color: #ffffff; line-height: 100%;">AUSMP</h1>
-                                                                                    </td>
-                                                                                </tr>
-                                                                            </tbody>
-                                                                        </table>
-                                                                    </td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                        <!--[if mso]></td><td width="20"></td><td width="170" valign="top"><![endif]-->
-                                                        <table cellspacing="0" cellpadding="0" align="right">
-                                                            <tbody>
-                                                                <tr class="es-hidden">
-                                                                    <td class="es-m-p20b esd-container-frame" esd-custom-block-id="7704" width="170" align="left">
-                                                                        <table width="100%" cellspacing="0" cellpadding="0">
-                                                                            <tbody>
-                                                                                <tr>
-                                                                                    <td class="esd-block-spacer es-p5b" align="center">
-                                                                                        <table width="100%" height="100%" cellspacing="0" cellpadding="0" border="0">
-                                                                                            <tbody>
-                                                                                                <tr>
-                                                                                                    <td style="border-bottom: 1px solid rgb(4, 71, 103); background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; height: 1px; width: 100%; margin: 0px;"></td>
-                                                                                                </tr>
-                                                                                            </tbody>
-                                                                                        </table>
-                                                                                    </td>
-                                                                                </tr>
-                                                                                <tr>
-                                                                                    <td>
-                                                                                        <table cellspacing="0" cellpadding="0" align="right">
-                                                                                            <tbody>
-                                                                                                <tr>
-                                                                                                    <td align="left">
-                                                                                                        <table width="100%" cellspacing="0" cellpadding="0">
-                                                                                                            <tbody>
-                                                                                                                <tr>
-                                                                                                                    <td class="esd-block-text" align="right">
-                                                                                                                        <p><a target="_blank" style="font-size: 18px; line-height: 120%;" href="https://stripo.email/">A</a>shoka University</p>
-                                                                                                                    </td>
-                                                                                                                </tr>
-                                                                                                            </tbody>
-                                                                                                        </table>
-                                                                                                    </td>
-                                                                                                    <td class="esd-block-image es-p10l" valign="top" align="left">
-                                                                                                        <a href="mailto:shuttle@ashoka.edu.in" target="_blank"><img src="https://demo.stripo.email/content/guids/1234/images/9436246731487156933857.png" alt="" style="display: block;" width="27"></a>
-                                                                                                    </td>
-                                                                                                </tr>
-                                                                                            </tbody>
-                                                                                        </table>
-                                                                                    </td>
-                                                                                </tr>
-                                                                            </tbody>
-                                                                        </table>
-                                                                    </td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                        <!--[if mso]></td></tr></table><![endif]-->
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                        <table class="es-content" cellspacing="0" cellpadding="0" align="center">
-                            <tbody>
-                                <tr>
-                                    <td class="esd-stripe" align="center">
-                                        <table class="es-content-body" width="600" cellspacing="0" cellpadding="0" bgcolor="#ffffff" align="center">
-                                            <tbody>
-                                                <tr>
-                                                    <td class="esd-structure es-p40t es-p35b es-p35r es-p35l" esd-custom-block-id="7685" style="background-color: rgb(247, 247, 247);" bgcolor="#f7f7f7" align="left">
-                                                        <table width="100%" cellspacing="0" cellpadding="0">
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td class="esd-container-frame" width="530" valign="top" align="center">
-                                                                        <table width="100%" cellspacing="0" cellpadding="0">
-                                                                            <tbody>
-                                                                                <tr>
-                                                                                    <td class="esd-block-image es-p20t es-p25b es-p35r es-p35l" align="center">
-                                                                                        <a target="_blank" href="https://stripo.email/"> <img src="https://demo.stripo.email/content/guids/235d6ba1-b21b-471b-903c-6e351e4714c3/images/2491544135576909.png" alt="ship" style="display: block;" title="ship" width="150"> </a>
-                                                                                    </td>
-                                                                                </tr>
-                                                                                <tr>
-                                                                                    <td class="esd-block-text es-p15b" align="center">
-                                                                                        <h2 style="color: #ed8e20;">You are on waitlist! </h2>
-                                                                                        
-                                                                                    </td>
-                                                                                </tr>
-                                                                                <tr>
-                                                                                    <td class="esd-block-text es-m-txt-l es-p20t" align="left">
-                                                                                        <h3 style="font-size: 18px;">We could not book you for this shuttle</h3>
-                                                                                    </td>
-                                                                                </tr>
-                                                                                <tr>
-                                                                                    <td class="esd-block-text es-p15t es-p10b" align="left">
-                                                                                    </td>
-                                                                                </tr>
+.login-form .form-group {
+margin-bottom:10px
 
-                                                                            </tbody>
-                                                                        </table>
-                                                                    </td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                        <table class="es-content" cellspacing="0" cellpadding="0" align="center">
-                            <tbody>
-                                <tr> </tr>
-                                <tr>
-                                    <td class="esd-stripe" esd-custom-block-id="7797" align="center">
-                                        <table class="es-content-body" style="background-color: rgb(27, 155, 163);" width="600" cellspacing="0" cellpadding="0" bgcolor="#1b9ba3" align="center">
-                                            <tbody>
-                                                <tr>
-                                                    <td class="esd-structure es-p35" align="left">
-                                                        <table width="100%" cellspacing="0" cellpadding="0">
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td class="esd-container-frame" width="530" valign="top" align="center">
-                                                                        <table width="100%" cellspacing="0" cellpadding="0">
-                                                                            <tbody>
-                                                                                <tr>
-                                                                                    <td align="center" class="esd-empty-container" style="display: none;"></td>
-                                                                                </tr>
-                                                                            </tbody>
-                                                                        </table>
-                                                                    </td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                        <table class="es-footer" cellspacing="0" cellpadding="0" align="center">
-                            <tbody>
-                                <tr>
-                                    <td class="esd-stripe" esd-custom-block-id="7684" align="center">
-                                        <table class="es-footer-body" width="600" cellspacing="0" cellpadding="0" align="center">
-                                            <tbody>
-                                                <tr>
-                                                    <td class="esd-structure es-p35t es-p40b es-p35r es-p35l" align="left">
-                                                        <table width="100%" cellspacing="0" cellpadding="0">
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td class="esd-container-frame" width="530" valign="top" align="center">
-                                                                        <table width="100%" cellspacing="0" cellpadding="0">
-                                                                            <tbody>
-                                                                                <tr>
-                                                                                    <td class="esd-block-text es-p35b" align="center">
-                                                                                        <p><strong>Created for CS-207 Advanced Programming Course </strong></p>
-                                                                                        <p><strong>Ashoka University Shuttle Management System | All rights reserved 2018</strong></p>
-                                                                                    </td>
-                                                                                </tr>
-                                                                            </tbody>
-                                                                        </table>
-                                                                    </td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                        <table class="esd-footer-popover es-content" cellspacing="0" cellpadding="0" align="center">
-                            <tbody>
-                                <tr>
-                                    <td class="esd-stripe" align="center">
-                                        <table class="es-content-body" style="background-color: transparent;" width="600" cellspacing="0" cellpadding="0" align="center">
-                                            <tbody>
-                                                <tr>
-                                                    <td class="esd-structure es-p30t es-p30b es-p20r es-p20l" align="left">
-                                                        <table width="100%" cellspacing="0" cellpadding="0">
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td class="esd-container-frame" width="560" valign="top" align="center">
-                                                                        <table width="100%" cellspacing="0" cellpadding="0">
-                                                                            <tbody>
-                                                                                <tr>
-                                                                                    <td align="center" class="esd-empty-container" style="display: none;"></td>
-                                                                                </tr>
-                                                                            </tbody>
-                                                                        </table>
-                                                                    </td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
+}
+.login-form{ text-align:center;}
+.forgot a {
+color: #777777;
+font-size: 14px;
+text-decoration: underline;
+}
+.login-form  .btn.btn-primary {
+background: #f0ad4e none repeat scroll 0 0;
+border-color: #f0ad4e;
+border-radius: 30px;
+color: #ffffff;
+font-size: 15px;
+width: 200px;
+height: 50px;
+line-height: 50px;
+padding: 0;
+}
+.forgot {
+text-align: left; margin-bottom:30px;
+}
+.botto-text {
+color: #ffffff;
+font-size: 14px;
+margin: auto;
+}
+.login-form .btn.btn-primary.reset {
+background: #ff9900 none repeat scroll 0 0;
+}
+.back { text-align: left; margin-top:10px;}
+.back a {color: grey; font-size: 13px;text-decoration: none;}
+    </style>
+<body id="LoginForm">
+<div class="container">
+<div class="login-form">
+<div class="main-div">
+    <div class="panel">
+  <div class="container">
+      <div class="header">
+        <img src="https://dwmbily8o2kmd.cloudfront.net/t/ashokauniversity/content/common/images/Horizontal_Without%20Background.png" align="center" alt="ashoka" width="180" height="80">
+        <br><br>
+<font face = "Abril Fatface" size = "5">Ashoka University Shuttle Management Portal</font><br />
+      </div>
+   </div>
+   <br> <br> 
+    <div class="row marketing">
+            <div class="col-lg-6">
+                    
+                <font face = "Verdana" size = "3">Status: </div></font>
+        <br>
+                 <font face = "Verdana" size = "4"  color="red" style="bold">Sorry, booking not confirmed. <br>Waitlist number: {{id}}</div></font>
+                </div>
+       
+                                
+                
+               
+
+
+<br><br><br><br> 
+
+         
+          <button type="submit" class="btn btn-primary" style="width: 150px"><a href="http://10.1.36.30:5000/">Home</a></button>
+        </div>
+    
+    </div></div>
+<a href="https://www.ashoka.edu.in" class="botto-text"> &copy; Ashoka University</a>
+</div>
+
 </body>
-
 </html>
