@@ -1,0 +1,109 @@
+<html>
+  <head>
+      <style>
+        body#LoginForm{ background-image:url("http://www.abraxasnu.com/wp-content/uploads/2016/06/Ashoka.jpg"); background-repeat:no-repeat; background-position:center; background-size:cover; padding:10px;}
+
+.form-heading { color:#fff; font-size:23px;}
+.panel h2{ color:#444444; font-size:18px; margin:0 0 8px 0;}
+.panel p { color:#777777; font-size:14px; margin-bottom:30px; line-height:24px;}
+.login-form .form-control {
+  background: #f7f7f7 none repeat scroll 0 0;
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
+  font-size: 14px;
+  height: 50px;
+  line-height: 50px;
+}
+.main-div {
+  background: #ffffff none repeat scroll 0 0;
+  border-radius: 2px;
+  margin: 10px auto 30px;
+  max-width: 38%;
+  padding: 50px 70px 70px 71px;
+}
+
+.login-form .form-group {
+  margin-bottom:10px
+  height = 50px
+  width = 400 px
+}
+.login-form{ text-align:center;}
+.forgot a {
+  color: #777777;
+  font-size: 14px;
+  text-decoration: underline;
+}
+.login-form  .btn.btn-primary {
+  background: #f0ad4e none repeat scroll 0 0;
+  border-color: #f0ad4e;
+  border-radius: 30px;
+  color: #ffffff;
+  font-size: 14px;
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  padding: 0;
+}
+.forgot {
+  text-align: left; margin-bottom:30px;
+}
+.botto-text {
+  color: #ffffff;
+  font-size: 14px;
+  margin: auto;
+}
+.login-form .btn.btn-primary.reset {
+  background: #ff9900 none repeat scroll 0 0;
+}
+.back { text-align: left; margin-top:10px;}
+.back a {color: #444444; font-size: 13px;text-decoration: none;}
+        </style>
+ 
+<img src="https://image3.mouthshut.com/images/imagesp/925836586s.jpg" alt="ashoka" width="150" height="150" align="right">
+    <link href="../Static/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="../Static/signup.css" type="text/css" rel="stylesheet">
+  </head>
+<body id="LoginForm">
+<div class="container">
+<div class="login-form">
+<div class="main-div">
+    <div class="panel">
+  <div class="container">
+      <div class="header">
+<font face = "Verdana" size = "5">Ashoka University Shuttle Management Portal</font><br>
+      </div>
+   </div>
+   <br> <br>
+    <div class="row marketing">
+            <div class="col-lg-6">
+                <font face = "Verdana" size = "3">About</div></font>
+                <p>Free shuttle service anyone and everyone commuting to and from Ashoka University.</p>
+                </div>
+        </div>
+
+
+<br><br>
+
+        
+        </div>
+
+    </form>
+    </div></div>
+<a href="https://www.ashoka.edu.in" class="botto-text"> &copy; Ashoka University</a>
+</div>
+
+{%if users%}
+<div class="users" style="margin-left:20%">
+  <h2>Registered Users List</h2>
+  <table style="width:100%;">
+    {%for user in users%}
+      <tr>
+        <td>{{user}}</td>
+      </tr>   
+    {%endfor%}
+  </table>
+</div>
+{%endif%}
+
+</body>
+</html>
