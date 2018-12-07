@@ -81,29 +81,29 @@
                 </div>
         </div>
 
-
+        {%if count%}
+        <div class="users" style="margin-left:20%">
+          <h2>Registered Users List</h2>
+          <table style="width:100%;">
+            {%for c in count%}
+              <tr>
+                <td>{{c}}</td>
+              </tr>   
+            {%endfor%}
+          </table>
+        </div>
+        {%endif%}
 <br><br>
 
         
         </div>
 
-    </form>
+    
     </div></div>
 <a href="https://www.ashoka.edu.in" class="botto-text"> &copy; Ashoka University</a>
 </div>
 
-{%if users%}
-<div class="users" style="margin-left:20%">
-  <h2>Registered Users List</h2>
-  <table style="width:100%;">
-    {%for user in users%}
-      <tr>
-        <td>{{user}}</td>
-      </tr>   
-    {%endfor%}
-  </table>
-</div>
-{%endif%}
+
 
 </body>
 </html>
